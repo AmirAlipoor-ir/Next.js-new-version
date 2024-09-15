@@ -4,7 +4,7 @@ import Link from "next/link";
 async function getTickets() {
   const res = await fetch("https://jsonplaceholder.typicode.com/posts", {
     next: {
-      revalidate: 0, // use 0 to opt out of using cache
+      revalidate: 60, // use 0 to opt out of using cache
     },
   });
 

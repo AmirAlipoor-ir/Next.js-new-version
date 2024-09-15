@@ -1,7 +1,9 @@
 const FirsPost = () => {
-    return ( 
-        <div>first post page</div>
-     );
-}
- 
+  return (
+    <div>
+      <h1>first post page</h1>
+    </div>
+  );
+};
+
 export default FirsPost;

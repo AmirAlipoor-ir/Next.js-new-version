@@ -1,7 +1,9 @@
 const SecondPost = () => {
-    return ( 
-        <div>second post page</div>
-     );
-}
- 
+  return (
+    <div>
+      <h1>second post page</h1>
+    </div>
+  );
+};
+
 export default SecondPost;
